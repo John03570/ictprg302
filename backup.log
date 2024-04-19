@@ -1,0 +1,82 @@
+ERROR: job name missing from command line 20240418-012723
+ERROR: job name missing from command line 20240418-013121
+ERROR: job name missing from command line 20240418-013141
+ERROR: job name missing from command line 20240418-013250
+ERROR: job name missing from command line 20240418-013340
+ERROR: job name missing from command line 20240418-015343
+ERROR: Jobname job4 not defined. 20240418-015846
+ERROR: Jobname job5 not defined. 20240418-020143
+ERROR: Jobname file2.dat not defined. 20240418-031950
+ERROR: Jobname file2.dat not defined. 20240418-032618
+ERROR: Jobname file2.dat not defined. 20240418-032955
+ SUCCESS: Backup complete.ERROR: Jobname file2.dat not defined. 20240418-034335
+ SUCCESS: Backup complete.ERROR: Jobname dir1 not defined. 20240418-034357
+{message} {dateTimeStamp}
+{message} {dateTimeStamp}
+{message} {dateTimeStamp}
+Backup successfulSUCCESS copied'/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-004931, dateTimeStamp.
+SUCCESS copied'/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240419-005643, dateTimeStamp.
+ERROR: Jobname job7 not defined., dateTimeStamp.
+SUCCESS copied'/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240419-005830, dateTimeStamp.
+SUCCESS copied/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240419-010052 20240419-010052.
+ERROR: Jobname job7 not defined. 20240419-010200.
+SUCCESS copied/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240419-010456 20240419-010456.
+SUCCESS copied/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240419-011436 20240419-011436.
+ERROR: Jobname job6 not defined. 20240419-011450.
+FAILUREERROR: Jobname job6 not defined. {'20240419-011818'}.
+FAILURE ERROR: Jobname job6 not defined. {'20240419-011845'}.
+SUCCESS copied/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240419-012926 20240419-012926.
+SUCCESS copied/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240419-012940 20240419-012940.
+SUCCESS copied/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240419-012959 20240419-012959.
+SUCCESS copied/home/ec2-user/environment/ictprg302/dir1/file2.dat to /home/ec2-user/environment/ictprg302/backups/file2.dat-20240419-013021 20240419-013021.
+SUCCESS copied/home/ec2-user/environment/ictprg302/dir1/file3.dat to /home/ec2-user/environment/ictprg302/backups/file3.dat-20240419-013032 20240419-013032.
+SUCCESS copied/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240419-014547 20240419-014547.
+FAILURE ERROR: job name missing from command line {'20240419-014627'}.
+FAILURE ERROR: job name missing from command line {'20240419-014842'}.
+SUCCESS copied/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240419-014957 20240419-014957.
+SUCCESS copied/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240419-030434 20240419-030434.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240419-034611 20240419-034611.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1/file2.dat to /home/ec2-user/environment/ictprg302/backups/file2.dat-20240419-034627 20240419-034627.
+FAILURE ERROR: file /home/ec2-user/environment/ictprg302/dir1/file3.dat does not exist. {'20240419-034634'}.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/file3.dat to /home/ec2-user/environment/ictprg302/backups/file3.dat-20240419-034720 20240419-034720.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-034928 20240419-034928.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240419-035511 20240419-035511.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-035547 20240419-035547.
+FAILURE ERROR: job name missing from command line {'20240419-035613'}.
+FAILURE ERROR: Jobname job not defined. {'20240419-035702'}.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-035717 20240419-035717.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240419-035726 20240419-035726.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1/file2.dat to /home/ec2-user/environment/ictprg302/backups/file2.dat-20240419-035733 20240419-035733.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1/file2.dat to /home/ec2-user/environment/ictprg302/backups/file2.dat-20240419-035740 20240419-035740.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-042001 20240419-042001.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-042101 20240419-042101.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-042201 20240419-042201.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-042302 20240419-042302.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-042401 20240419-042401.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-042501 20240419-042501.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-042601 20240419-042601.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-042702 20240419-042702.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-042801 20240419-042801.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-042901 20240419-042901.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-043001 20240419-043001.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-043101 20240419-043101.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-043202 20240419-043202.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-043301 20240419-043301.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-043401 20240419-043401.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-043419 20240419-043419.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-043501 20240419-043501.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-043601 20240419-043601.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-043702 20240419-043702.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-043801 20240419-043801.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-043901 20240419-043901.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-044001 20240419-044001.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-044102 20240419-044102.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-044201 20240419-044201.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-044301 20240419-044301.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-044401 20240419-044401.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240419-044501 20240419-044501.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/file3.dat to /home/ec2-user/environment/ictprg302/backups/file3.dat-20240419-050813 20240419-050813.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/file4.dat to /home/ec2-user/environment/ictprg302/backups/file4.dat-20240419-050813 20240419-050813.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240419-051259 20240419-051259.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/file3.dat to /home/ec2-user/environment/ictprg302/backups/file3.dat-20240419-051448 20240419-051448.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/file4.dat to /home/ec2-user/environment/ictprg302/backups/file4.dat-20240419-051448 20240419-051448.
