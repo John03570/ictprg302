@@ -2,7 +2,8 @@
 """
 Creator:John Fitzpatrick
 Email: jjfitzpatrick357@gmail.com
-Version: 1.1
+Version: 1.0
+MIT License
 """
 
 import sys
@@ -13,7 +14,7 @@ import smtplib
 from datetime import datetime #Adds a date and time to logs and backups
 from backupcfg import jobs, dstPath, smtp, logPath #Imports the file path from the folder/file
 
-def logging(message, dateTimeStamp):
+def logging(message, dateTimeStamp): # Writes Success or Failure to backup.log
     try:
         file = open(logPath, "a")
         file.write(f'{message} {dateTimeStamp}.\n')
@@ -46,29 +47,29 @@ def sendEmail(message, dateTimeStamp):
         smtp_server.sendmail(smtp["sender"], smtp["recipient"], email)
         smtp_server.close()
     except Exception as e:
-        print("ERROR: Send email failed: " + str(e), file=sys.stderr)
+        print("FAILURE: ERROR: Send email failed: " + str(e), file=sys.stderr)
 
 def success(message, dateTimeStamp):
     pass
-    
 
-def error(errorMessage, dateTimeStamp):
+
+def error(errorMessage, dateTimeStamp): #This function prints an eror message to the interface, to the log and in the email to the admin
     print(errorMessage)
-    logging(f'FAILURE {errorMessage}', {dateTimeStamp})
+    logging(f'FAILURE: {errorMessage}', {dateTimeStamp})
     sendEmail(errorMessage, dateTimeStamp)
     
     
 def main(): #Defining the function "main" which is the command that executes the backup
 
     dateTimeStamp = datetime.now().strftime("%Y%m%d-%H%M%S")    
-    argCount = len(sys.argv)
-    #Tests if the job name is specified
+    argCount = len(sys.argv)  #Tests if the job name is specified
+   
     if argCount != 2:
         error("ERROR: job name missing from command line", dateTimeStamp)
     else: 
         jobName = sys.argv[1]#Putting the required job name that needs to be backed up into the command line
         #If the job name is valid
-        if jobName not in jobs:#If the name that has been put into the command line is not found it prints an error message
+        if jobName not in jobs:#If the name that has been put into the command line is not found in backupcfg.py it prints an error message
             error(f'ERROR: Jobname {jobName} not defined.',dateTimeStamp)
         else:
             for srcPath in jobs[jobName]: #the path of the jobs in backupcfg.py is defined by srcPath
@@ -76,21 +77,21 @@ def main(): #Defining the function "main" which is the command that executes the
                     error("ERROR: file " + srcPath + " does not exist.",dateTimeStamp)
                 else:
                     if not os.path.exists(dstPath):
-                        error("ERROR: destination path " + srcPath + " does not exist.",dateTimeStamp)
+                        error("ERROR: Destination path " + dstPath + " does not exist.",dateTimeStamp)
                     else:
                         #the source path is valid
     
                         srcDetails = pathlib.PurePath(srcPath)
                         dstLoc = dstPath + "/" + srcDetails.name + "-" + dateTimeStamp
                         
-                        if pathlib.Path(srcPath).is_dir(): #Backup a directory and  files
-                            shutil.copytree(srcPath, dstLoc)
-                            success('SUCCESS: Files backed up', dateTimeStamp)
-                            logging(f"SUCCESS: copied{srcPath} to {dstLoc}",dateTimeStamp)
+                        if pathlib.Path(srcPath).is_dir(): 
+                            shutil.copytree(srcPath, dstLoc) #Backup a directory and  files
+                            success('SUCCESS: Files backed up', dateTimeStamp)#Prints Success to the interface
+                            logging(f"SUCCESS: copied{srcPath} to {dstLoc}",dateTimeStamp) #Prints Success to backup.log
                         else:
-                            shutil.copy2(srcPath, dstLoc)
-                            success('SUCCESS: Files backed up', dateTimeStamp)
-                            logging(f"SUCCESS: copied{srcPath} to {dstLoc}",dateTimeStamp)
+                            shutil.copy2(srcPath, dstLoc) #backs up a file
+                            success('SUCCESS: Files backed up', dateTimeStamp)#Prints Success to the interface
+                            logging(f"SUCCESS: copied{srcPath} to {dstLoc}",dateTimeStamp) #Prints Success to backup.log
                            
 if __name__ == '__main__':
     main()

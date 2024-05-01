@@ -3,7 +3,7 @@ jobs = {'job1':['/home/ec2-user/environment/ictprg302/dir1'],
         'job3':['/home/ec2-user/environment/ictprg302/dir1/file2.dat'],
         'job4':['/home/ec2-user/environment/ictprg302/file3.dat', '/home/ec2-user/environment/ictprg302/file4.dat']}
         
-dstPath = '/home/ec2-user/environment/ictprg302/backups' 
+dstPath = '/home/ec2-user/environment/ictprg302/backups' # the name of the destination of where all backups(copies) of directories and files will go
 
 # SMTP settings
 smtp = {"sender": "jjfitzpatrick357@gmail.com", # elasticemail.com verified sender
@@ -14,4 +14,4 @@ smtp = {"sender": "jjfitzpatrick357@gmail.com", # elasticemail.com verified send
 "password": ""} # elasticemail.com password
 
 
-logPath = '/home/ec2-user/environment/ictprg302/backup.log' 
+logPath = '/home/ec2-user/environment/ictprg302/backup.log' # the name of the log file

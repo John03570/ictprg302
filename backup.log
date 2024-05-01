@@ -80,3 +80,61 @@ SUCCESS: copied/home/ec2-user/environment/ictprg302/file4.dat to /home/ec2-user/
 SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240419-051259 20240419-051259.
 SUCCESS: copied/home/ec2-user/environment/ictprg302/file3.dat to /home/ec2-user/environment/ictprg302/backups/file3.dat-20240419-051448 20240419-051448.
 SUCCESS: copied/home/ec2-user/environment/ictprg302/file4.dat to /home/ec2-user/environment/ictprg302/backups/file4.dat-20240419-051448 20240419-051448.
+FAILURE FAIL: ERROR: job name missing from command line {'20240423-021911'}.
+FAIL: FAIL: ERROR: job name missing from command line {'20240423-022027'}.
+FAIL: ERROR: job name missing from command line {'20240423-022243'}.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240423-022452 20240423-022452.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240423-022747 20240423-022747.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1/file2.dat to /home/ec2-user/environment/ictprg302/backups/file2.dat-20240423-022804 20240423-022804.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/file3.dat to /home/ec2-user/environment/ictprg302/backups/file3.dat-20240423-022816 20240423-022816.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/file4.dat to /home/ec2-user/environment/ictprg302/backups/file4.dat-20240423-022816 20240423-022816.
+FAIL: ERROR: Jobname job6 not defined. {'20240423-225915'}.
+FAIL: ERROR: Jobname job98 not defined. {'20240425-230226'}.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/file3.dat to /home/ec2-user/environment/ictprg302/backups/file3.dat-20240425-233153 20240425-233153.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/file4.dat to /home/ec2-user/environment/ictprg302/backups/file4.dat-20240425-233153 20240425-233153.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240425-233304 20240425-233304.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1/file1.dat to /home/ec2-user/environment/ictprg302/backups/file1.dat-20240425-233310 20240425-233310.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1/file2.dat to /home/ec2-user/environment/ictprg302/backups/file2.dat-20240425-233315 20240425-233315.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/file3.dat to /home/ec2-user/environment/ictprg302/backups/file3.dat-20240425-233320 20240425-233320.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/file4.dat to /home/ec2-user/environment/ictprg302/backups/file4.dat-20240425-233320 20240425-233320.
+FAIL: ERROR: job name missing from command line {'20240425-233552'}.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240425-233633 20240425-233633.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240425-234016 20240425-234016.
+FAIL: ERROR: Jobname job1 not defined. {'20240425-234130'}.
+FAIL: ERROR: file /home/ec2-user/environment/dir1 does not exist. {'20240425-234921'}.
+SUCCESS: copied/home/ec2-user/environment/ictprg302//dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240425-235050 20240425-235050.
+SUCCESS: copied/home/ec2-user/environment/ictprg302//dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240425-235450 20240425-235450.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240426-011916 20240426-011916.
+FAIL: ERROR: job name missing from command line {'20240426-011924'}.
+FAIL: ERROR: Jobname job8 not defined. {'20240426-012216'}.
+FAIL: ERROR: Jobname job8 not defined. {'20240426-012454'}.
+FAIL: ERROR: job name missing from command line {'20240426-013024'}.
+FAIL: ERROR: job name missing from command line {'20240426-013056'}.
+FAIL: ERROR: Jobname job9 not defined. {'20240426-022553'}.
+FAIL: ERROR: Jobname job9 not defined. {'20240426-022601'}.
+FAIL: ERROR: job name missing from command line {'20240426-022942'}.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240426-023058 20240426-023058.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240426-023107 20240426-023107.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240426-023125 20240426-023125.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240426-023130 20240426-023130.
+FAIL: ERROR: job name missing from command line {'20240426-023212'}.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240426-023224 20240426-023224.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240426-023424 20240426-023424.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240426-023431 20240426-023431.
+FAIL: ERROR: Jobname job7 not defined. {'20240426-024052'}.
+FAIL: ERROR: Jobname job7 not defined. {'20240426-024345'}.
+FAIL: ERROR: Jobname job7 not defined. {'20240426-024536'}.
+FAIL: ERROR: file /home/ec2-user/environment/dir1 does not exist. {'20240426-025247'}.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240426-025508 20240426-025508.
+FAIL: ERROR: destination path /home/ec2-user/environment/ictprg302/dir1 does not exist. {'20240426-030636'}.
+FAILURE: ERROR: Jobname job9 not defined. {'20240426-032006'}.
+FAILURE: ERROR: job name missing from command line {'20240426-032024'}.
+FAILURE: ERROR: job name missing from command line {'20240426-032559'}.
+FAILURE: ERROR:/home/ec2-user/environment/backups/home/ec2-user/environment/ictprg302/dir1 does not exist. {'20240426-032614'}.
+FAILURE: ERROR: Destination path /home/ec2-user/environment/backups/home/ec2-user/environment/ictprg302/dir1 does not exist. {'20240426-033301'}.
+FAILURE: ERROR: Destination path /home/ec2-user/environment/backups does not exist. {'20240426-033337'}.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240426-033412 20240426-033412.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240426-034848 20240426-034848.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240426-035156 20240426-035156.
+FAILURE: ERROR: Destination path = /home/ec2-user/environment/backups = does not exist. {'20240426-035217'}.
+SUCCESS: copied/home/ec2-user/environment/ictprg302/dir1 to /home/ec2-user/environment/ictprg302/backups/dir1-20240426-035320 20240426-035320.
